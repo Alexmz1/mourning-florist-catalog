@@ -27,7 +27,7 @@ const Contact = () => {
               </li>
             </ul>
             <p className="text-black mt-4">
-              Préférence de contact par mail, si pas de retour n&apos;hésitez pas à laisser un SMS.
+              Préférence de contact par mail, si pas de retour n’hésitez pas à laisser un SMS.
             </p>
 
 

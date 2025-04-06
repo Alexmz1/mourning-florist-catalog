@@ -1,12 +1,18 @@
+import Image from "next/image";
+
 const Info = () => {
   return (
     <section id="information">
       <div className="container mx-auto pt-28 sm:pt-44 px-4 sm:px-6 lg:px-8 text-center max-w-screen-md">
-        <img 
+
+        <Image 
           src="/images/logo/logo.png" 
-          alt="Logo Fleuriste" 
+          alt="Logo Fleuriste"
+          width={600} 
+          height={200} 
           className="mx-auto w-64 sm:w-80 md:w-96 lg:w-[500px] xl:w-[600px] 2xl:w-[700px]"
         />
+
         <p className="mt-3 text-sm sm:text-sm md:text-base lg:text-lg text-black">
           Bienvenue dans notre catalogue numérique dédié à la vente de compositions florales pour rendre hommage à vos proches.
         </p>
@@ -14,13 +20,13 @@ const Info = () => {
           Chaque création que nous proposons peut être personnalisée selon vos choix de couleurs, afin de refléter au mieux les sentiments que vous souhaitez exprimer.
         </p>
         <p className="mt-3 text-sm sm:text-sm md:text-base lg:text-lg text-black">
-          Le paiement peut s&apos;effectuer facilement par virement bancaire ou par carte bancaire. Nous vous rappellerons pour finaliser votre commande en toute sécurité.
+          Le paiement peut s’effectuer facilement par virement bancaire ou par carte bancaire. Nous vous rappellerons pour finaliser votre commande en toute sécurité.
         </p>
         <p className="mt-3 text-sm sm:text-sm md:text-base lg:text-lg text-black">
-          De plus, nous offrons la livraison de nos compositions, veillant à ce qu&apos;elles arrivent à destination dans les meilleures conditions.
+          De plus, nous offrons la livraison de nos compositions, veillant à ce qu’elles arrivent à destination dans les meilleures conditions.
         </p>
         <p className="mt-3 text-sm sm:text-sm md:text-base lg:text-lg text-black">
-          Nous nous engageons à vous offrir un travail de qualité, pour que chaque composition soit à la hauteur de l&apos;émotion que vous souhaitez partager.
+          Nous nous engageons à vous offrir un travail de qualité, pour que chaque composition soit à la hauteur de l’émotion que vous souhaitez partager.
         </p>
       </div>
       <svg className="block w-full -mb-[2px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
