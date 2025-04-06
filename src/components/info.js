@@ -8,10 +8,19 @@ const Info = () => {
           className="mx-auto w-64 sm:w-80 md:w-96 lg:w-[500px] xl:w-[600px] 2xl:w-[700px]"
         />
         <p className="mt-3 text-sm sm:text-sm md:text-base lg:text-lg text-black">
-          Les couleurs des fleurs peuvent être entièrement choisies selon vos préférences. Contactez-nous pour discuter de vos besoins et pour toute personnalisation.
+          Bienvenue dans notre catalogue numérique dédié à la vente de compositions florales pour rendre hommage à vos proches.
         </p>
         <p className="mt-3 text-sm sm:text-sm md:text-base lg:text-lg text-black">
-          Aucun paiement ne peut être effectué en ligne. Veuillez remplir le formulaire en bas de page pour passer commande.
+          Chaque création que nous proposons peut être personnalisée selon vos choix de couleurs, afin de refléter au mieux les sentiments que vous souhaitez exprimer.
+        </p>
+        <p className="mt-3 text-sm sm:text-sm md:text-base lg:text-lg text-black">
+          Le paiement peut s'effectuer facilement par virement bancaire ou par carte bancaire. Nous vous rappellerons pour finaliser votre commande en toute sécurité.
+        </p>
+        <p className="mt-3 text-sm sm:text-sm md:text-base lg:text-lg text-black">
+          De plus, nous offrons la livraison de nos compositions, veillant à ce qu'elles arrivent à destination dans les meilleures conditions.
+        </p>
+        <p className="mt-3 text-sm sm:text-sm md:text-base lg:text-lg text-black">
+          Nous nous engageons à vous offrir un travail de qualité, pour que chaque composition soit à la hauteur de l'émotion que vous souhaitez partager.
         </p>
       </div>
       <svg className="block w-full -mb-[2px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
