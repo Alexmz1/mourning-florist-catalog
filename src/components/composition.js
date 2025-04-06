@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Compositions = () => {
   let imageCounter = 1;
 
@@ -115,10 +117,11 @@ const Compositions = () => {
                           : "pt-[100%]"
                       }`}
                     >
-                      <img
+                      <Image
                         src={image.src}
                         alt={image.alt}
-                        className="absolute top-0 left-0 w-full h-full object-cover"
+                        fill
+                        className="object-cover"
                         loading="lazy"
                       />
                     </figure>
