@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <title>Fleurs de la Seine</title>
       <body>
         <Main />
         <NextScript />
