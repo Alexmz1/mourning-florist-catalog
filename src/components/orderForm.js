@@ -25,10 +25,10 @@ const OrderForm = () => {
 
         emailjs
             .send(
-                "service_gtud36g",
-                "template_ip533yo",
+                "service_kzfwhjg",
+                "template_6ooqzus",
                 formData,
-                "jqE6hgRe6v0n5q3l-"
+                "nXApsTQNwYeK2S3Ox"
             )
             .then(
                 () => {
