@@ -13,9 +13,13 @@ const Compositions = () => {
         { id: 3, src: "/images/coeur/coeur65cm1.jpg", alt: "Arrangement 6", name: "Coeur 65cm", price: "250€" },
         { id: 4, src: "/images/coeur/coeur65cm2.jpg", alt: "Arrangement 7", name: "Coeur 65cm", price: "250€" },
         { id: 5, src: "/images/coeur/coeur65cm3.jpg", alt: "Arrangement 8", name: "Coeur 65cm", price: "250€" },
-        { id: 6, src: "/images/coeur/coeur1.jpeg", alt: "Arrangement 1", name: "Coeur 40cm", price: "150€" },
-        { id: 7, src: "/images/coeur/coeur2.jpg", alt: "Arrangement 2", name: "Coeur 40cm", price: "150€" },
-        { id: 8, src: "/images/coeur/coeur4.jpg", alt: "Arrangement 4", name: "Coeur 40cm", price: "150€" },
+        { id: 6, src: "/images/coeur/coeur5.jpeg", alt: "Arrangement 9", name: "Coeur 65cm", price: "250€" },
+        { id: 7, src: "/images/coeur/coeur6.jpeg", alt: "Arrangement 10", name: "Coeur 65cm", price: "250€" },
+        { id: 8, src: "/images/coeur/coeurEvide.jpeg", alt: "Arrangement 9", name: "Coeur Evidé", price: "180€" },
+        { id: 9, src: "/images/coeur/coeur1.jpeg", alt: "Arrangement 1", name: "Coeur 40cm", price: "150€" },
+        { id: 10, src: "/images/coeur/coeur2.jpg", alt: "Arrangement 2", name: "Coeur 40cm", price: "150€" },
+        { id: 11, src: "/images/coeur/coeur4.jpg", alt: "Arrangement 4", name: "Coeur 40cm", price: "150€" },
+        { id: 12, src: "/images/coeur/coeur7.jpeg", alt: "Arrangement 5", name: "Coeur 40cm", price: "150€" },
       ]
     },
     {
@@ -24,7 +28,7 @@ const Compositions = () => {
       images: [
         { id: 1, src: "/images/couronne/couronne1.jpg", alt: "Arrangement Funéraire 1", name: "Couronne", price: "300€" },
         { id: 2, src: "/images/couronne/couronne2.jpg", alt: "Arrangement Funéraire 2", name: "Couronne", price: "300€" },
-        { id: 3, src: "/images/couronne/couronne3.jpg", alt: "Arrangement Funéraire 3", name: "Couronne", price: "300€" },
+        { id: 3, src: "/images/couronne/couronne3.jpeg", alt: "Arrangement Funéraire 3", name: "Couronne", price: "300€" },
         { id: 4, src: "/images/couronne/couronne4.jpg", alt: "Arrangement Funéraire 4", name: "Couronne", price: "300€" },
         { id: 5, src: "/images/couronne/couronne5.jpg", alt: "Arrangement Funéraire 5", name: "Couronne", price: "300€" },
       ]
@@ -63,7 +67,8 @@ const Compositions = () => {
         { id: 3, src: "/images/dessusCercueil/dessusCercueil3.jpg", alt: "Bouquet Souvenir 1", name: "Dessus de cercueil", price: "250€ - 300€" },
         { id: 4, src: "/images/dessusCercueil/dessusCercueil4.jpg", alt: "Bouquet Souvenir 1", name: "Dessus de cercueil", price: "250€ - 300€" },
         { id: 5, src: "/images/dessusCercueil/dessusCercueil5.jpeg", alt: "Bouquet Souvenir 1", name: "Dessus de cercueil", price: "250€ - 300€" },
-        { id: 6, src: "/images/dessusCercueil/dessusCercueilTombant.jpg", alt: "Bouquet Souvenir 1", name: "Dessus de cercueil tombant", price: "100€" },
+        { id: 6, src: "/images/dessusCercueil/dessusCercueil6.jpeg", alt: "Bouquet Souvenir 1", name: "Dessus de cercueil", price: "250€ - 300€" },
+        { id: 7, src: "/images/dessusCercueil/dessusCercueilTombant.jpg", alt: "Bouquet Souvenir 1", name: "Dessus de cercueil tombant", price: "100€" },
       ]
     },
     {
@@ -110,7 +115,7 @@ const Compositions = () => {
                     </div>
                     <figure
                       className={`relative w-full ${
-                        category.id === 5 && (image.id === 5 || image.id === 6)
+                        category.id === 5 && (image.id === 7)
                           ? "pt-[85%]"
                           : category.id === 5
                           ? "pt-[50%]"
