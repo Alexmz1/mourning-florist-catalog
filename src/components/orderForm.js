@@ -14,6 +14,7 @@ const OrderForm = () => {
         color_customization: "",
         delivery_address: "",
         delivery_date: "",
+        funeral_time: "",
     });
 
     const handleChange = (e) => {
@@ -45,6 +46,7 @@ const OrderForm = () => {
                         color_customization: "",
                         delivery_address: "",
                         delivery_date: "",
+                        funeral_time: "",
                     });
                 },
                 (error) => {
@@ -132,8 +134,7 @@ const OrderForm = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="form-control">
+                <div className="form-control">
                         <label className="label">
                             <span className="label-text text-black">
                                 Adresse de livraison <span className="text-red-500">*</span>
@@ -145,6 +146,24 @@ const OrderForm = () => {
                             placeholder="Entrez l'adresse de livraison"
                             required
                             value={formData.delivery_address || ""}
+                            onChange={handleChange}
+                            className="input input-bordered w-full border-gray-300 bg-gray-200 text-black placeholder-gray-500 hover:bg-gray-300"
+                        />
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="form-control">
+                        <label className="label">
+                            <span className="label-text text-black">
+                                Heure de l'enterrement <span className="text-red-500">*</span>
+                            </span>
+                        </label>
+                        <input
+                            type="text"
+                            name="funeral_time"
+                            placeholder="ex: 14h30"
+                            required
+                            value={formData.funeral_time}
                             onChange={handleChange}
                             className="input input-bordered w-full border-gray-300 bg-gray-200 text-black placeholder-gray-500 hover:bg-gray-300"
                         />
