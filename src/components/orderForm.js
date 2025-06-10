@@ -155,7 +155,7 @@ const OrderForm = () => {
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text text-black">
-                                Heure de l'enterrement <span className="text-red-500">*</span>
+                                Heure de l&apos;enterrement <span className="text-red-500">*</span>
                             </span>
                         </label>
                         <input
